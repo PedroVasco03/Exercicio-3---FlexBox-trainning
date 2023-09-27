@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+ overflow: hidden;
+ background-color: #a4c3f6;
+}
+
+.logoCont{
+    width: 50px;
+    margin:  0 150px ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logoCont a h1{
+    color: white;
+    font-weight: 600;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#3574e8;
+    padding: 10px;
+}
+
+.navItens{
+    display: flex;
+    margin: 10px;
+    list-style: none;
+    font-weight: 600;
+    justify-content: flex-end;
+    color: white;
+    
+}
+
+.navItens li{
+    margin: 0 10px;
+    padding: 0 5px;
+    font-size: .9rem;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.navItens li:hover{
+    background-color: white;
+    color: black;
+    scale: 1.2;
+}
+
+.content{
+    height: 100vh;
+    background-color: #0252cd;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.contentText{
+    color: white;
+    margin-bottom: 50px;
+    width: 60%;
+    margin-left: 200px;
+}
+
+.contentText h2{
+    font-size: 4rem;
+    width: 700px;
+    margin-bottom: 10px;
+}
+
+.contentText p{
+    font-size: 1.2rem;
+}
+
+.content_image{
+    margin-right: 50px;
+}

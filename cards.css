@@ -1,0 +1,28 @@
+.cards_container{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 350px;
+    height: 200px;
+    background-color: #0252cd;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card .card_header h1{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card .card_body p{
+    color: white;
+    font-weight: 500;
+}
